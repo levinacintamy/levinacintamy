@@ -1,0 +1,17 @@
+/* Gaya dasar untuk semua tombol */
+.btn-tambah {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Hijau */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Kursor berubah menjadi pointer saat mengarahkan kursor */
+  }
+  
+  /* Gaya saat tombol dihover */
+  .btn-tambah:hover {
+    background-color: #3e8e41; /* Hijau tua */
+  }
+  

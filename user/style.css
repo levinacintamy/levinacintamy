@@ -1,0 +1,128 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header a.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#menu-bar {
+    display: none;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav.navbar a:hover,
+nav.navbar a.active {
+    background: #fff;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+
+@media (max-width: 768px) {
+    #menu-bar {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    nav.navbar {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav.navbar a {
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #fff;
+    }
+
+    nav.navbar a:first-child {
+        border-top: none;
+    }
+}
+
+@media (max-width: 768px) {
+    nav.navbar.active {
+        display: flex;
+    }
+}

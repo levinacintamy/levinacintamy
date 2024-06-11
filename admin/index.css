@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background\ telkom.jpg);
+    padding: 0 0 80px 0; /* Replace with the URL of your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #e74c3c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar ul li h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #c0392b; 
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 225px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-items: center;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #b30000;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-hapus {
+    background-color: #e60000;
+}
+
+.btn-hapus:hover {
+    background-color: #cc0000;
+}
+
+.btn-update {
+    background-color: #008CBA;
+}
+
+.btn-update:hover {
+    background-color: #007B9E;
+}
+
+@media (max-width: 600px) {
+    table, th, td {
+        width: 100%;
+        display: block;
+    }
+
+    th, td {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+

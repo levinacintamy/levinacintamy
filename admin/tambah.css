@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    margin: 20px auto; /* Add some margin for spacing */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners for the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Navigation styles (assuming it's already styled) */
+ 
+    /* Your existing styles for the navigation bar */
+  
+  
+  /* Form title styles */
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Form label styles */
+  .form-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Form input styles */
+  .form-wrapper input[type="text"],
+  .form-wrapper input[type="email"],
+  .form-wrapper input[type="number"],
+  .form-wrapper input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  /* Textarea styles */
+  .form-wrapper textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    resize: vertical; /* Allow users to resize the textarea */
+  }
+  
+  /* Submit button styles */
+  .container button[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .container button[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
